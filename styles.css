@@ -1,0 +1,147 @@
+
+  
+/* here i am going write media code which allows this website to be viewed on any screen :telphone or desktop */
+@media only screen and (min-width:500px){
+body{background-size:contain;  background-repeat:no-repeat;
+  
+}
+}
+  .container{background-color:rgb(255,0,255);
+    
+  }
+  .services{background-size:cover;
+    background-repeat:no-repeat;
+    
+  background-color:rgb(46,139,87);}
+  
+.servicesp:first-child{text-align:left;
+font-family:time new roman;
+font-size:30px;
+}
+#services{text-align:left;
+font-family:time new roman;
+font-size:30px;
+font-weight:bold;
+font-style:italic;
+color:blue;
+display:flex;
+flex-direction:column;
+}
+    
+  
+ #center{background-image:url("https://d2ck0sxsjau14o.cloudfront.net/wp-content/uploads/2016/01/Women-shopping-by-Z%C3%BCrich-Tourismus.jpg"  ); 
+ }
+  
+p{color:black;
+  justify-content:justify;
+  font-size:24px;
+  font-family:time new roman;
+}
+h2{font-family:time new roman;
+  font-size:20px;
+  font-style:italic;
+}
+.contacts{background-color:rgb(112,128,144)
+;}
+.contacts p{text-align:center;
+font-family:time new roman;
+font-size:30px;
+}
+
+table,th,td{padding: 10px;
+  border-collapse: collapse;
+  border: 2px solid pink;
+  font-family: sans-serif;
+}
+#table{position:relative;
+  left:20px;
+}
+ 
+ 
+  
+nav {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 8px 0;
+   margin-right: 0%;
+   font-size: 20px;
+}
+nav>ul {
+  text-align: right;
+}
+ul>li {
+ display: inline-block; 
+}
+
+
+
+nav>ul>li>a {
+padding: 10px;
+margin-right: 0;
+text-transform: uppercase;
+text-decoration: none;
+display: block;
+color: white;
+}
+nav>ul>li>a:hover {
+box-shadow: 0 0 1px rgba(255, 255, 255, 0.6);
+background: lightblue;
+color: rgba(0, 35, 122, 0.7);
+}
+*{
+  font-family: Time new roman;
+  
+}
+
+h1{
+  font-size: 40px;
+  font-family: Times New Roman;
+  font-style: oblique;
+  text-shadow: 2px 2px 5px gey;
+  padding:40px;
+}
+
+ 
+
+ footer{font-family:time new roman;
+   font-size:10px;
+   font-style:italic;
+   color:blue;
+ }
+
+
+
+.home{background-color:lightgreen;
+  font-family:time new roman;
+  font-size:30px;
+}
+#home{color:red;
+text-align:center;
+  
+}
+#seller{font-family: time new roman;
+font-weight: bold;
+font-size: 20px;
+text-align: center
+}
+#contacts{font-family: time new roman;
+font-weight: bold;
+font-size: 24px;
+text-align: center;
+font-style: italic;}
+.home{background-size:cover;
+    background-repeat:no-repeat;
+    
+  background-color:rgb(95,158,160);
+}
+
+#footer{position:relative;
+  bottom:20px;
+ 
+}
+#mession{position:relative;
+  bottom:10px;
+}
+#left{position:absolute;
+  top:20px;
+}
